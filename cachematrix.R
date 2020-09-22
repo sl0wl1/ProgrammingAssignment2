@@ -2,7 +2,7 @@
 makeCacheMatrix <- function(x = matrix()) {
         
         inv <- NULL                     #sets the inversed matrix to NULL
-        # sets the special_matrix and the inverse variable in the parent environment to NULL
+        # sets the special_matrix; the inverse variable in the parent environment to NULL
         set <- function(y) {                    
                 x <<- y
                 inverse <<- NULL
